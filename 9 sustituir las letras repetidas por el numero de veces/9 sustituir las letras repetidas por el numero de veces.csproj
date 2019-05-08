@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>_9_sustituir_las_letras_repetidas_por_el_numero_de_veces</RootNamespace>
+  </PropertyGroup>
+
+</Project>
