@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>_11_dada_s_y_un_caracter_determinar_si_c_esta</RootNamespace>
+  </PropertyGroup>
+
+</Project>

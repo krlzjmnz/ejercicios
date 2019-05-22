@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>_12_un_arreglo_de_enteros_sumar_sus_elementos</RootNamespace>
+  </PropertyGroup>
+
+</Project>
