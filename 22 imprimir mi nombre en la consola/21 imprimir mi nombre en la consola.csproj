@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>_21_imprimir_mi_nombre_en_la_consola</RootNamespace>
+  </PropertyGroup>
+
+</Project>

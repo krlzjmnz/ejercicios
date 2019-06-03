@@ -1,0 +1,41 @@
+@model Models.Product;
+
+<html>
+    <head>
+    <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <form method="get" action="Agregar" asp-controller="Home">
+            <input type="text" name="Name">
+           <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+        @if(Model!=null){
+            <label>@Model.Name</label>
+        }
+        <a href="MostrarTodo" class="btn btn-primary btn-success active" role="button" aria-pressed="true">Mostrar</a>
+        <button type="button" class="btn btn-success" id="btnCargar">Mostrar con ajax</button>
+
+        <div id="divGet">
+
+        </div>
+    </body>
+</html>
+
+
+    <script>
+        $("#btnCargar").click(function(){
+            $(this).prop("disable","disable");
+            
+            $.ajax({
+                url: "/Home/MostrarAsincrono",
+                type = "GET",
+                contentType: "application/json",
+                
+                
+            });
+        });
+    </script>

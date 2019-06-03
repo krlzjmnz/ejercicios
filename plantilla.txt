@@ -11,7 +11,7 @@
                 if(!char.TryParse(Console.ReadLine(),out seguir) || seguir!='y' && seguir!='n'){
                     Console.WriteLine("entrada no valida");
                 }
-		else if(seguir==n){
+		else if(seguir=='n'){
 		Console.WriteLine("Teminando la ejecucion del programa");
 		}
             }while(seguir=='y');
